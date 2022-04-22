@@ -8,7 +8,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "check:lint": "eslint --ext js --ext jsx --fix"
+    "check:lint": "eslint --ext js --ext jsx --fix",
+    "check:format": "prettier --check .",
+    "fix:format": "prettier --write ."
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
