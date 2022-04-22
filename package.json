@@ -8,8 +8,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "check:lint": "eslint .",
-    "check:format": "prettier --check . --ext js --ext jsx",
+    "check:lint": "eslint . --ext js --ext jsx",
+    "check:format": "prettier --check .",
     "fix:format": "prettier --write ."
   },
   "dependencies": {
