@@ -10,7 +10,8 @@
     "eject": "react-scripts eject",
     "check:lint": "eslint . --ext js --ext jsx",
     "check:format": "prettier --check .",
-    "fix:format": "prettier --write ."
+    "fix:format": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -48,18 +49,7 @@
     "eslint-plugin-n": "^15.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.29.4",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "prettier": "^2.6.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "check:lint",
-      "git add"
-    ]
   }
 }
