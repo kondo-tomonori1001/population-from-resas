@@ -1,0 +1,9 @@
+name: Lint
+
+on: pull_request
+jobs:
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'hello world!!'
