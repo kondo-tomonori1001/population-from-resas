@@ -6,4 +6,10 @@ jobs:
     name: lint
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'hello world!!'
+      - uses: actions/checkout@v2
+
+      - name: yarn install
+        run: yarn install
+
+      - name: lint
+        run: yarn check:lint
