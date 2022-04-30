@@ -1,8 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
-const test = '';
-console.log(test);
+import { Button } from './components/Button/Button.jsx';
 
 function App() {
   return (
@@ -13,6 +11,7 @@ function App() {
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
+        <Button text="ボタン" />
       </header>
     </div>
   );
