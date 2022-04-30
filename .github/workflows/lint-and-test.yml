@@ -15,4 +15,4 @@ jobs:
         run: yarn check:lint
 
       - name: lint
-      run: yarn test
+        run: yarn test
