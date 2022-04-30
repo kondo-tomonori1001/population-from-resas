@@ -1,4 +1,4 @@
-name: Lint
+name: LintAndTest
 
 on: pull_request
 jobs:
@@ -13,3 +13,6 @@ jobs:
 
       - name: lint
         run: yarn check:lint
+
+      - name: lint
+      run: yarn test
